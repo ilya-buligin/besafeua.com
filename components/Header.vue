@@ -12,9 +12,20 @@
       >
     </nuxt-link>
     <button
+      @click.prevent="clickHandler"
       class="rounded-full bg-[#2E81FF] px-5 py-2 text-xs sm:text-base text-white hover:scale-105 transition-transform"
     >
       Отримати допомгу
     </button>
   </header>
 </template>
+
+<script>
+export default {
+  methods: {
+    clickHandler() {
+      window.zE("messenger", "open");
+    },
+  },
+};
+</script>
