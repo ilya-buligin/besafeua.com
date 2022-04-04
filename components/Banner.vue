@@ -32,7 +32,7 @@
 export default {
   methods: {
     clickHandler() {
-      window.zE("messenger", "open");
+      window.LiveChatWidget?.call("maximize");
     },
   },
 };
