@@ -4,8 +4,8 @@
   >
     <nuxt-link to="/" class="flex items-center group">
       <img
-        src="/logo.svg"
-        class="w-[32px] h-[32px] sm:w-[52px] sm:h-[52px] sm:mr-3 mr-2 group-hover:scale-110 transition-transform"
+        src="/logo.jpg"
+        class="h-[40px] sm:h-[60px] sm:mr-3 mr-2 group-hover:scale-110 transition-transform"
       />
       <span class="text-[18px] sm:text-[20px] leading-none font-bold"
         >Є - Спокій</span
